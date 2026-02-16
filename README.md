@@ -43,6 +43,14 @@ is to understand the basic visual construction before refactoring in later use c
 
 ---
 
+## Use Case 3 (UC3): String.join Refactor
+
+UC3 refactors the banner rendering logic from UC2 by replacing
+string concatenation using the `+` operator with the `String.join()` method.
+
+This improves memory efficiency by reducing intermediate String object creation
+while preserving the same visual banner output.
+
 ### How to Run
 ```bash
 javac OOPSBannerApp.java
