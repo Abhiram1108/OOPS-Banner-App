@@ -59,6 +59,13 @@ in a String array and printing them using an enhanced for loop.
 This removes repetitive print statements and improves maintainability
 while preserving the same banner output.
 
+---
+## Use Case 5 (UC5): Inline Array Initialization
+
+UC5 improves code conciseness by declaring and initializing
+the banner lines array in a single statement using inline
+String.join() calls, while preserving the same banner output.
+
 ### How to Run
 ```bash
 javac OOPSBannerApp.java
