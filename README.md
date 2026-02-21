@@ -51,6 +51,14 @@ string concatenation using the `+` operator with the `String.join()` method.
 This improves memory efficiency by reducing intermediate String object creation
 while preserving the same visual banner output.
 
+---
+## Use Case 4 (UC4): Array and Loop Refactor
+
+UC4 improves code modularity by storing all banner lines
+in a String array and printing them using an enhanced for loop.
+This removes repetitive print statements and improves maintainability
+while preserving the same banner output.
+
 ### How to Run
 ```bash
 javac OOPSBannerApp.java
