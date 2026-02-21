@@ -66,6 +66,13 @@ UC5 improves code conciseness by declaring and initializing
 the banner lines array in a single statement using inline
 String.join() calls, while preserving the same banner output.
 
+---
+## Use Case 6 (UC6): Static Helper Methods
+
+UC6 refactors banner generation logic into static helper methods
+for each character (O, P, S). This improves modularity, reusability,
+and readability while preserving the same banner output.
+
 ### How to Run
 ```bash
 javac OOPSBannerApp.java
