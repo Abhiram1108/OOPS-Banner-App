@@ -73,6 +73,13 @@ UC6 refactors banner generation logic into static helper methods
 for each character (O, P, S). This improves modularity, reusability,
 and readability while preserving the same banner output.
 
+---
+## Use Case 7 (UC7): Inner Static Class for Character Patterns
+
+UC7 introduces an inner static class to encapsulate banner character
+patterns. This improves modularity, scalability, and reusability by
+centralizing character-to-pattern mapping while preserving the same
+banner output.
 ### How to Run
 ```bash
 javac OOPSBannerApp.java
