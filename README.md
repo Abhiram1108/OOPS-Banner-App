@@ -80,6 +80,13 @@ UC7 introduces an inner static class to encapsulate banner character
 patterns. This improves modularity, scalability, and reusability by
 centralizing character-to-pattern mapping while preserving the same
 banner output.
+---
+## Use Case 8 (UC8): Map-based Character Pattern Rendering
+
+UC8 replaces array-based character pattern management with a HashMap,
+allowing efficient lookup and reuse of ASCII patterns. The banner is
+rendered using utility functions and nested loops while preserving the
+same visual output.
 ### How to Run
 ```bash
 javac OOPSBannerApp.java
